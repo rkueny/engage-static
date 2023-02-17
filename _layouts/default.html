@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+
+    <meta
+      name="description"
+      content="La méthode pilote de chasse pour développer la performance de votre entreprise. Conduite du changement, amélioration des process, atteinte des objectifs, cohésion ... vivez les expériences Engage grâce à nos programmes sur mesure."
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="{{ asset('build/app.css') }}" />
+    // CSS BLOCK
+  </head>
+  <body class="text-center">
+    <header>
+      <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
+        <nav class="navbar navbar-expand-md no-gutters cover-container">
+          <div
+            class="logo col-4 col-md-2 text-right text-md-center order-lg-6 order-md-6"
+          >
+            <h1 style="display: none;">Engage</h1>
+            <a href="{{ path('homepage') }}">
+              <img
+                src="{{ asset('build/images/logo-engage.png') }}"
+                alt="Engage"
+              />
+            </a>
+          </div>
+
+          // MAIN MENU
+
+          <ul
+            class="navbar-nav justify-content-end col-sm-5 order-lg-12 order-md-12 d-none d-md-flex"
+            id="contactNav"
+          >
+            <a href="#">
+              Contactez-nous
+            </a>
+
+            <div class="menu-contact">
+              <ul>
+                <li>
+                  <a href="tel:+330637278222" class="phone">
+                    Stéphanie Ferrier
+                    <br />
+                    06 37 27 82 22
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:stephanie@gw.team" class="mail">
+                    stephanie@gw.team
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.fr/maps/search/Great+%26+Wonderful,+2+all%C3%A9e+Ulysse+Gayon+33650+Martillac/@44.7070234,-0.5886745,17z/data=!3m1!4b1"
+                    class="web"
+                    target="_blank"
+                  >
+                    Great & Wonderful
+                    <br />
+                    2 allée Ulysse Gayon
+                    <br />
+                    33650 Martillac
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/engage-airforce"
+                    class="linkedin"
+                    target="_blank"
+                  >
+                    Linkedin
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/engage_airforce/"
+                    class="instagram"
+                    target="_blank"
+                  >
+                    Instagram
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    {{ content }}
+
+    <!-- Footer -->
+    <footer>
+      <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
+        <div class="row text-center align-items-center">
+          <div class="col">
+            <a href="https://www.greatandwonderful.com/" target="_blank">
+              <img
+                src="{{ asset('build/images/footer/logo-gw.png') }}"
+                class="img-logo"
+                alt="great & Wonderful"
+              />
+            </a>
+            <span>Groupe Great & Wonderful</span>
+
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="https://immersiv.eu/">Immersiv</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.air-combat-experience.fr/"
+                >
+                  ACE
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Engage</a>
+              </li>
+            </ul>
+
+            <p class="h5">
+              <a href="/mentions-legales">
+                Mentions légales
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div
+      class="menu-bottom cover-container d-flex w-100 h-100 mx-auto flex-column"
+    >
+      <div class="row text-center">
+        <div class="col">
+          <ul class="row">
+            <li class="col">
+              <a href="/approche">
+                Approche
+              </a>
+            </li>
+
+            <li class="col">
+              <a href="/methode-pedagogique}">
+                Méthode Pédagogique
+              </a>
+            </li>
+
+            <li class="col">
+              <a href="/experiences-pilotage">
+                Expériences
+              </a>
+            </li>
+
+            <li class="col">
+              <a href="/objectifs">
+                Objectifs
+              </a>
+            </li>
+
+            <li class="col">
+              <a href="/infrastructures-base-aerienne">
+                Infrastructures
+              </a>
+            </li>
+
+            <li class="col">
+              <a href="/equipe">Équipe</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-bottom-mobile">
+      <ul class="row">
+        <li class="col-sm">
+          <a href="/approche">Approche</a>
+        </li>
+
+        <li class="col-sm">
+          <a href="/methode-pedagogique' }) >
+            Méthode Pédagogique
+          </a>
+        </li>
+
+        <li class="col-sm">
+          <a href="#">Expériences</a>
+          <div class="submenu">
+            <ul>
+              <li>
+                <a
+                  href="/experiences-pilotage"
+                >
+                  Pilotage
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/experiences-simulateur-de-vol"
+                >
+                  Simulateur de vol
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/experiences-ateliers-interactifs"
+                >
+                  Ateliers interactifs
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/experiences-conferences"
+                >
+                  Conférences
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="col-sm">
+          <a href="/objectifs' }) >
+            Objectifs
+          </a>
+        </li>
+
+        <li class="col-sm">
+          <a href="#">Infrastructures</a>
+          <div class="submenu">
+            <ul>
+              <li>
+                <a
+                  href="/infrastructures-base-aerienne"
+                >
+                  Base aérienne
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/infrastructures-centre-simulation"
+                >
+                  Centre d'immersion
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="col-sm">
+          <a href="/equipe">Équipe</a>
+        </li>
+      </ul>
+    </div>
+
+    // js
+
+    <!-- Global site tag (gtag.js) - Google Analytics 
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-132326843-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'UA-132326843-1')
+    </script>
+    -->
+  </body>
+</html>
