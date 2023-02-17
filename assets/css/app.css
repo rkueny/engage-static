@@ -7824,7 +7824,7 @@ header #navbarNav2 .menu-submenu ul li a:before {
 }
 header #navbarNav2 .menu-submenu ul li a:after {
   content: '';
-  background: url(/assets/images/arrow.d4c9a5db.png);
+  background: url(/assets/images/header/arrow.png);
   background-size: 8px 14px;
   width: 8px;
   height: 14px;
@@ -7842,7 +7842,7 @@ header #navbarNav2 .menu-submenu ul li a:hover {
 header #navbarNav2 .menu-submenu ul li a.active:after,
 header #navbarNav2 .menu-submenu ul li a:hover:after {
   right: 25px;
-  background: url(/assets/images/arrow-red.77c099b5.png);
+  background: url(/assets/images/header/arrow-red.png);
 }
 header #navbarNav2 .menu-submenu .content {
   display: none;
@@ -7998,11 +7998,11 @@ header #contactNav .menu-contact li a.phone {
   line-height: 20px;
 }
 header #contactNav .menu-contact li a.phone:after {
-  background-image: url(/assets/images/phone.007dd615.png);
+  background-image: url(/assets/images/header/phone.png);
   background-size: 20px 20px;
 }
 header #contactNav .menu-contact li a.mail:after {
-  background-image: url(/assets/images/header/mail.4685b3d3.png);
+  background-image: url(/assets/images/header/mail.png);
   background-size: 25px 17px;
   width: 25px;
   height: 17px;
@@ -8011,7 +8011,7 @@ header #contactNav .menu-contact li a.web {
   line-height: 20px;
 }
 header #contactNav .menu-contact li a.web:after {
-  background-image: url(/assets/images/web.c18f2c0e.png);
+  background-image: url(/assets/images/header/web.png);
   top: 20px;
   width: 25px;
   height: 25px;
@@ -8022,7 +8022,7 @@ header #contactNav .menu-contact li a.linkedin {
   text-transform: uppercase;
 }
 header #contactNav .menu-contact li a.linkedin:after {
-  background-image: url(/assets/images/linkedin.c8347528.png);
+  background-image: url(/assets/images/header/linkedin.png);
   background-size: 23px 23px;
   width: 23px;
   height: 23px;
@@ -8032,7 +8032,7 @@ header #contactNav .menu-contact li a.instagram {
   text-transform: uppercase;
 }
 header #contactNav .menu-contact li a.instagram:after {
-  background-image: url(/assets/images/instagram.6d46aeeb.png);
+  background-image: url(/assets/images/header/instagram.png);
   background-size: 23px 23px;
   width: 23px;
   height: 23px;
