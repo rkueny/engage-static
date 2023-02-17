@@ -1,17 +1,20 @@
 ---
 layout: default
 title: Home
+js: /assets/js/homepage.js
 ---
+
+<link rel="stylesheet" href="/assets/css/homepage.css" />
 
 <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
   <div class="video">
     <a href="#" class="player">
-      <img src="{{ asset('build/images/homepage/bg-video.jpg') }}" alt="" />
+      <img src="/assets/images/homepage/bg-video.jpg" alt="" />
     </a>
 
     <video id="video_homepage" controls preload="none">
-      <source src="{{ asset('build/videos/master.webm') }}" type="video/webm" />
-      <source src="{{ asset('build/videos/master.mp4') }}" type="video/mp4" />
+      <source src="/assets/videos/master.webm" type="video/webm" />
+      <source src="/assets/videos/master.mp4" type="video/mp4" />
     </video>
 
     <h2>
@@ -29,7 +32,7 @@ title: Home
         <a href="experiences-pilotage' }) }}">
           <div class="picture">
             <img
-              src="{{ asset('build/images/homepage/links/pilotage.jpg') }}"
+              src="/assets/images/homepage/links/pilotage.jpg"
               alt="Pilotage"
             />
           </div>
@@ -42,7 +45,7 @@ title: Home
         <a href="experiences-simulateur-de-vol' }) }}">
           <div class="picture">
             <img
-              src="{{ asset('build/images/homepage/links/simulateur-de-vol.jpg') }}"
+              src="/assets/images/homepage/links/simulateur-de-vol.jpg"
               alt="Simulateur de vol"
             />
           </div>
@@ -55,7 +58,7 @@ title: Home
         <a href="experiences-ateliers-interactifs' }) }}">
           <div class="picture">
             <img
-              src="{{ asset('build/images/homepage/links/ateliers.jpg') }}"
+              src="/assets/images/homepage/links/ateliers.jpg"
               alt="Ateliers interactifs"
             />
           </div>
@@ -68,7 +71,7 @@ title: Home
         <a href="experiences-conferences' }) }}">
           <div class="picture">
             <img
-              src="{{ asset('build/images/homepage/links/conferences.jpg') }}"
+              src="/assets/images/homepage/links/conferences.jpg"
               alt="Conférences"
             />
           </div>
@@ -92,7 +95,7 @@ title: Home
       <div class="carousel-item active">
         <img
           class="d-block w-100"
-          src="{{ asset('/build/images/homepage/slides/first.jpg') }}"
+          src="/assets/images/homepage/slides/first.jpg"
           alt=""
         />
         <div class="content">
@@ -109,7 +112,7 @@ title: Home
       <div class="carousel-item">
         <img
           class="d-block w-100"
-          src="{{ asset('/build/images/homepage/slides/2.jpg') }}"
+          src="/assets/images/homepage/slides/2.jpg"
           alt=""
         />
         <div class="content top-left">
@@ -128,7 +131,7 @@ title: Home
       <div class="carousel-item">
         <img
           class="d-block w-100"
-          src="{{ asset('/build/images/homepage/slides/3.jpg') }}"
+          src="/assets/images/homepage/slides/3.jpg"
           alt=""
         />
         <div class="content">
@@ -145,7 +148,7 @@ title: Home
       <div class="carousel-item">
         <img
           class="d-block w-100"
-          src="{{ asset('/build/images/homepage/slides/4.jpg') }}"
+          src="/assets/images/homepage/slides/4.jpg"
           alt=""
         />
         <div class="content bottom-right">
@@ -162,7 +165,7 @@ title: Home
       <div class="carousel-item">
         <img
           class="d-block w-100"
-          src="{{ asset('/build/images/homepage/slides/5.jpg') }}"
+          src="/assets/images/homepage/slides/5.jpg"
           alt=""
         />
         <div class="content bottom-right">
@@ -199,7 +202,7 @@ title: Home
       <div class="carousel-item active">
         <img
           class="d-block w-100"
-          src="{{ asset('/build/images/homepage/testimonial/bg-transparent.gif') }}"
+          src="/assets/images/homepage/testimonial/bg-transparent.gif"
           alt="1er témoignage"
         />
         <div class="content">
@@ -220,7 +223,7 @@ title: Home
       <div class="carousel-item">
         <img
           class="d-block w-100"
-          src="{{ asset('/build/images/homepage/testimonial/bg-transparent.gif') }}"
+          src="/assets/images/homepage/testimonial/bg-transparent.gif"
           alt="1er témoignage"
         />
         <div class="content">
@@ -241,7 +244,7 @@ title: Home
       <div class="carousel-item">
         <img
           class="d-block w-100"
-          src="{{ asset('/build/images/homepage/testimonial/bg-transparent.gif') }}"
+          src="/assets/images/homepage/testimonial/bg-transparent.gif"
           alt="1er témoignage"
         />
         <div class="content">
@@ -286,83 +289,65 @@ title: Home
       <div class="col-xl"></div>
       <div class="col-sm">
         <img
-          src="{{ asset('/build/images/homepage/partners/castorama.png') }}"
+          src="/assets/images/homepage/partners/castorama.png"
           alt="Castorama"
         />
       </div>
       <div class="col-sm">
         <img
-          src="{{ asset('/build/images/homepage/partners/panasonic.png') }}"
+          src="/assets/images/homepage/partners/panasonic.png"
           alt="Panasonic"
         />
       </div>
       <div class="col-sm">
-        <img
-          src="{{ asset('/build/images/homepage/partners/eiffage.png') }}"
-          alt="Eiffage"
-        />
+        <img src="/assets/images/homepage/partners/eiffage.png" alt="Eiffage" />
       </div>
       <div class="col-sm">
         <img
-          src="{{ asset('/build/images/homepage/partners/decathlon.png') }}"
+          src="/assets/images/homepage/partners/decathlon.png"
           alt="Decathlon"
         />
       </div>
       <div class="col-sm">
         <img
-          src="{{ asset('/build/images/homepage/partners/leroymerlin.png') }}"
+          src="/assets/images/homepage/partners/leroymerlin.png"
           alt="Leroy Merlin"
         />
       </div>
       <div class="col-sm">
         <img
-          src="{{ asset('/build/images/homepage/partners/carrefour.png') }}"
+          src="/assets/images/homepage/partners/carrefour.png"
           alt="Carrefour"
         />
       </div>
       <div class="col-sm">
-        <img
-          src="{{ asset('/build/images/homepage/partners/edenred.png') }}"
-          alt="Edenred"
-        />
+        <img src="/assets/images/homepage/partners/edenred.png" alt="Edenred" />
       </div>
       <div class="col-sm"></div>
     </div>
 
     <div class="row">
       <div class="col-sm">
-        <img
-          src="{{ asset('/build/images/homepage/partners/allianz.png') }}"
-          alt="Allianz"
-        />
+        <img src="/assets/images/homepage/partners/allianz.png" alt="Allianz" />
       </div>
       <div class="col-sm">
         <img
-          src="{{ asset('/build/images/homepage/partners/bricodepot.png') }}"
+          src="/assets/images/homepage/partners/bricodepot.png"
           alt="Brico Dépôt"
         />
       </div>
       <div class="col-sm">
-        <img
-          src="{{ asset('/build/images/homepage/partners/lidl.png') }}"
-          alt="Lidl"
-        />
+        <img src="/assets/images/homepage/partners/lidl.png" alt="Lidl" />
+      </div>
+      <div class="col-sm">
+        <img src="/assets/images/homepage/partners/vinci.png" alt="Vinci" />
+      </div>
+      <div class="col-sm">
+        <img src="/assets/images/homepage/partners/nexans.png" alt="Nexans" />
       </div>
       <div class="col-sm">
         <img
-          src="{{ asset('/build/images/homepage/partners/vinci.png') }}"
-          alt="Vinci"
-        />
-      </div>
-      <div class="col-sm">
-        <img
-          src="{{ asset('/build/images/homepage/partners/nexans.png') }}"
-          alt="Nexans"
-        />
-      </div>
-      <div class="col-sm">
-        <img
-          src="{{ asset('/build/images/homepage/partners/banque-de-france.png') }}"
+          src="/assets/images/homepage/partners/banque-de-france.png"
           alt="Banque de France"
         />
       </div>
@@ -434,10 +419,7 @@ title: Home
           href="https://www.google.com/maps/place/IMMERSIV/@50.5819127,3.0947023,15z/data=!4m2!3m1!1s0x0:0x374f87d7d32f31ad?ved=2ahUKEwjfttj4ka7fAhWR6qQKHT2QDhEQ_BIwCnoECAYQCA"
           target="_blank"
         >
-          <img
-            src="{{ asset('/build/images/homepage/maps/lille.jpg') }}"
-            alt="Carte"
-          />
+          <img src="/assets/images/homepage/maps/lille.jpg" alt="Carte" />
           <div class="content">
             <h3>
               Centre de simulation
@@ -457,10 +439,7 @@ title: Home
           href="https://www.google.com/search?q=ACE+La+route+des+vins+du+M%C3%A9doc,+33180+Saint-Est%C3%A8phe&npsic=0&rflfq=1&rlha=0&rllag=45241609,-770237,1605&tbm=lcl&ved=2ahUKEwje8NSBkq7fAhWFzKQKHbRHC_EQtgN6BAgAEAQ&tbs=lrf:!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:14857239537246827745;mv:!1m2!1d45.250502999999995!2d-0.7491008!2m2!1d45.235119399999995!2d-0.7913741"
           target="_blank"
         >
-          <img
-            src="{{ asset('/build/images/homepage/maps/bordeaux.jpg') }}"
-            alt="Carte"
-          />
+          <img src="/assets/images/homepage/maps/bordeaux.jpg" alt="Carte" />
           <div class="content">
             <h3>
               Base aérienne

@@ -18,44 +18,44 @@
     <link
       rel="apple-touch-icon"
       sizes="114x114"
-      href="/apple-icon-114x114.png"
+      href="/assets/apple-icon-114x114.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="120x120"
-      href="/apple-icon-120x120.png"
+      href="/assets/apple-icon-120x120.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="144x144"
-      href="/apple-icon-144x144.png"
+      href="/assets/apple-icon-144x144.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="152x152"
-      href="/apple-icon-152x152.png"
+      href="/assets/apple-icon-152x152.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/apple-icon-180x180.png"
+      href="/assets/apple-icon-180x180.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="192x192"
-      href="/android-icon-192x192.png"
+      href="/assets/android-icon-192x192.png"
     />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
+    <link rel="manifest" href="/assets/manifest.json" />
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="msapplication-TileImage" content="/assets/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
 
-    <link rel="stylesheet" href="{{ asset('build/app.css') }}" />
-    // CSS BLOCK
+    <link rel="stylesheet" href="/assets/css/app.css" />
+
   </head>
   <body class="text-center">
     <header>
@@ -65,9 +65,9 @@
             class="logo col-4 col-md-2 text-right text-md-center order-lg-6 order-md-6"
           >
             <h1 style="display: none;">Engage</h1>
-            <a href="{{ path('homepage') }}">
+            <a href="/">
               <img
-                src="{{ asset('build/images/logo-engage.png') }}"
+                src="/assets/images/logo-engage.png"
                 alt="Engage"
               />
             </a>
@@ -144,7 +144,7 @@
           <div class="col">
             <a href="https://www.greatandwonderful.com/" target="_blank">
               <img
-                src="{{ asset('build/images/footer/logo-gw.png') }}"
+                src="/assets/images/footer/logo-gw.png"
                 class="img-logo"
                 alt="great & Wonderful"
               />
@@ -271,7 +271,7 @@
         </li>
 
         <li class="col-sm">
-          <a href="/objectifs' }) >
+          <a href="/objectifs">
             Objectifs
           </a>
         </li>
@@ -304,7 +304,18 @@
       </ul>
     </div>
 
-    // js
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
+  integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
+  crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="/assets/js/app.js"></script>
+    {% if page.js %}
+    <script src="{{ page.js }}"></script>
+    {% endif %}
+
 
     <!-- Global site tag (gtag.js) - Google Analytics 
     <script
